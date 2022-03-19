@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Selection Tool</title>
+</head>
+<body>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="analysis.html">Analysis</a>
+    </div>
+
+    <div>
+        <h2>Background</h2>
+        <p>This selection tool can be use to select or segment data from the scatter plot to further analytics studies. An example use case is to segment sales data from retails.</p>
+        <img src="retail.jpg" alt="retails">
+        <p>Sample retail data can be found in the Table 1.</p>
+
+        <table border="">
+            <caption>Table 1. Retail sales data</caption>
+            <tr>
+                <th>ORDERNUMBER</th>
+                <th>QUANTITY</th>
+                <th>PRICEEACH</th>
+                <th>SALES</th>
+            </tr>
+            <tr>
+                <td>10107</td>
+                <td>30</td>
+                <td>95.7</td>
+                <td>2871</td>
+            </tr>
+            <tr>
+                <td>10121</td>
+                <td>34</td>
+                <td>81.35</td>
+                <td>2765.9</td>
+            </tr>
+            <tr>
+                <td>10134</td>
+                <td>41</td>
+                <td>94.74</td>
+                <td>3884.34</td>
+            </tr>
+            <tr>
+                <td>10145</td>
+                <td>45</td>
+                <td>83.26</td>
+                <td>3746.7</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <p>To lauch the selection box tool, select the corresponding shape desired to use and draw your shape on the scatter plot. To update the the analysis in the Analysis page, click "submit" button.</p>
+        <button>Submit</button> <br><br>
+    </div>
+
+    <div>
+        The scatter plot can be found here:
+        <script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+        <div id='myDiv'></div>
+        <script src='index.js'></script>
+    </div>
+
+
+    <div>
+        <p>It is important to study the customer purchasing behaviors. The benefits are numerous such as: </p>
+        <ol>
+            <li>Better marketing strategy such as promotions, hot items, etc.</li>
+            <li>Better logistic such as storing more hot items or reduce items not popular.</li>
+            <li>Target business for certain segment of customers.</li>
+        </ol>
+
+        <img src="customer.png" alt="Happy Customer">
+        <img src="happy customer.jpg" alt="another happy customer">
+        <!--
+          <img src="customers.jpg" alt="customers">
+        -->
+        
+    </div>
+</body>
+</html>
